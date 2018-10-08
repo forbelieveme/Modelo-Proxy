@@ -6,11 +6,16 @@ public class CalculadoraConcreta implements Calculadora{
 
     public CalculadoraConcreta(int suma) {
         this.suma = suma;
+        cargarSuma();
     }
 
+    public void cargarSuma(){
+        System.out.println("Cargando suma...");
+    }
     
     @Override
     public void sumar() {
+        System.out.println("Sumado");
     }
     
 }
