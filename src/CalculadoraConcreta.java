@@ -10,12 +10,13 @@ public class CalculadoraConcreta implements Calculadora{
     }
 
     public void cargarSuma(){
-        System.out.println("Cargando suma...");
+        System.out.println("Cargando suma..."+suma);
     }
     
     @Override
-    public void sumar() {
-        System.out.println("Sumado");
+    public int sumar(int a, int b) {
+        System.out.println("Sumado"+suma);
+        return suma;
     }
     
 }

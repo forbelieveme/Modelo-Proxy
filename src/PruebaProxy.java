@@ -5,11 +5,11 @@ public class PruebaProxy {
         Calculadora calc1= new Proxy(0);
         Calculadora calc2= new Proxy(10);
         
-        calc1.sumar();
-        calc1.sumar();
-        calc2.sumar();
-        calc2.sumar();
-        calc1.sumar();
+        calc1.sumar(0,5);
+        calc1.sumar(0,5);
+        calc2.sumar(0,6);
+        calc2.sumar(0,6);
+        calc1.sumar(0,7);
     }
     
 }

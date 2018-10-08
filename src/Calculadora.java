@@ -1,6 +1,6 @@
 
 public interface Calculadora {
-    public void sumar();
+    public int sumar(int a, int b);
 }
 
 //interface Image {

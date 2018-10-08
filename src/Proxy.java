@@ -9,12 +9,12 @@ public class Proxy implements Calculadora{
     }
 
     @Override
-    public void sumar() {
+    public int sumar(int a, int b) {
         if(calculadora==null){
             calculadora=new CalculadoraConcreta(suma);
         }
         
-        calculadora.sumar(); 
+        return calculadora.sumar(a,b); 
     }
 
     
